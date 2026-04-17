@@ -1,11 +1,9 @@
 #pragma once
 #include <string_view>
-
-#include "disassembler.h"
 #include "pe.h"
 #include "assembler.h"
 
-class func_trans : disassembler, public pe
+class func_trans : public pe
 {
 private:
 	CodeHolder code_buffer;

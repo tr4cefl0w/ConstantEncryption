@@ -37,6 +37,7 @@ current features:
 - places obfuscated/encrypted function in a new section
 
 planned features
+- add more instructions
 - more encryption/obfuscation passes 
 - small vm to achieve more obfuscation
 

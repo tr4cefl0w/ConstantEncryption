@@ -32,5 +32,5 @@ auto main(i32 argc, i8* argv[]) -> i32
 		argv[1], //input file
 		argv[2], //output file
 		argv[3], //start rva
-		argv[4])); //start rva
+		argv[4])); //end rva
 }

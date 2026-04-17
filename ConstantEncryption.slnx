@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ConstantEncryption/ConstantEncryption.vcxproj" Id="8ecfae43-d181-4534-b1eb-cc408b6265f1" />
+</Solution>

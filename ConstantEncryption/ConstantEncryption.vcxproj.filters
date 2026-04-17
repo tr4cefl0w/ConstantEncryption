@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="dependencies">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="main\transformer">
+      <UniqueIdentifier>{ee42170c-5e72-4ca5-89fa-c25bf77965e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\pe">
+      <UniqueIdentifier>{88603429-ee3e-4afd-93f8-449ffbb06e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\helper">
+      <UniqueIdentifier>{cf792518-fc06-48d8-97f0-241ffb370d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\helper\file">
+      <UniqueIdentifier>{8e7f21f9-aa4e-42e7-a161-51183b612b8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\assembler">
+      <UniqueIdentifier>{e927cce6-3eb1-47e2-b433-b41d057c1fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\disassembler">
+      <UniqueIdentifier>{3a8d5906-4e5c-4ad5-8cee-5d13df41832e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\helper\converter">
+      <UniqueIdentifier>{0bd85e09-bd29-4016-abcb-f1e26255136f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\passes">
+      <UniqueIdentifier>{bcd9f732-5de1-40d1-b485-1d73d343a1f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\mutation">
+      <UniqueIdentifier>{5fd74772-e275-4cd4-91bc-dd99d6092b4c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.hpp">
+      <Filter>dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="func_transformer.h">
+      <Filter>main\transformer</Filter>
+    </ClInclude>
+    <ClInclude Include="disassembler.h">
+      <Filter>main\disassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="pe.h">
+      <Filter>main\pe</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>main\helper\file</Filter>
+    </ClInclude>
+    <ClInclude Include="assembler.h">
+      <Filter>main\assembler</Filter>
+    </ClInclude>
+    <ClInclude Include="converter.h">
+      <Filter>main\helper\converter</Filter>
+    </ClInclude>
+    <ClInclude Include="inst_passes.h">
+      <Filter>main\passes</Filter>
+    </ClInclude>
+    <ClInclude Include="mutation.h">
+      <Filter>main\mutation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="func_transformer.cpp">
+      <Filter>main\transformer</Filter>
+    </ClCompile>
+    <ClCompile Include="disassembler.cpp">
+      <Filter>main\disassembler</Filter>
+    </ClCompile>
+    <ClCompile Include="pe.cpp">
+      <Filter>main\pe</Filter>
+    </ClCompile>
+    <ClCompile Include="file.cpp">
+      <Filter>main\helper\file</Filter>
+    </ClCompile>
+    <ClCompile Include="assembler.cpp">
+      <Filter>main\assembler</Filter>
+    </ClCompile>
+    <ClCompile Include="converter.cpp">
+      <Filter>main\helper\converter</Filter>
+    </ClCompile>
+    <ClCompile Include="inst_passes.cpp">
+      <Filter>main\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="mutation.cpp">
+      <Filter>main\mutation</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

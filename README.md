@@ -6,11 +6,11 @@ Denuvo “removes” constants from functions by storing them remotely and encry
 
 For this PoC, I chose NTBuildNumber located in KUserSharedData, but you can basically use any value you want.
 
-## before encryption
+## Function prolog of __scrt_initialize_crt
 ```asm
 sub rsp, 0x28
 ```
-## after encryption
+## Encrypted version
 ```asm
 sub rsp, 0x10
 mov qword ptr [rsp], r11

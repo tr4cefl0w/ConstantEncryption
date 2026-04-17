@@ -12,8 +12,6 @@ Operand assembler::HandleMemoryOperand(const cs_x86_op& operand, const std::uint
     {
         const uint64_t target = org_rip + operand.mem.disp;
 
-        std::cout << std::hex << target << std::endl;
-
         return x86::ptr(target, operand.size);
     }
 

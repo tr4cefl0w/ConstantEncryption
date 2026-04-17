@@ -4,7 +4,7 @@ Whats Denuvo's constant encryption?<br>
 
 Denuvo “removes” constants from functions by storing them remotely and encrypting them using user-specific hardware information.
 
-For this POC i chose NTBuildNumber located in KUserSharedData but you can basicly use whatever you want
+For this PoC, I chose NTBuildNumber located in KUserSharedData, but you can basically use any value you want.
 
 ## before encryption
 ```asm
